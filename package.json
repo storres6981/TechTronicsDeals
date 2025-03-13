@@ -1,0 +1,45 @@
+{
+  "name": "techtronicsdeals",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "sync-deals": "node scripts/sync-deals.js"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.8.0",
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@prisma/client": "^6.4.1",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "module-alias": "^2.2.3",
+    "mongodb": "^6.13.1",
+    "next": "15.2.0",
+    "next-auth": "^4.24.11",
+    "prisma": "^6.4.1",
+    "puppeteer": "^24.4.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2"
+  },
+  "_moduleAliases": {
+    "@": "src"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.17.24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.0",
+    "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  }
+}
