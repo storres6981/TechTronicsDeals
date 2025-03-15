@@ -1,6 +1,9 @@
 import { NextConfig } from 'next';
 
 const config: NextConfig = {
+  output: 'export',
+  basePath: process.env.NODE_ENV === 'production' ? '/TechTronicsDeals' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/TechTronicsDeals/' : '',
   images: {
     domains: ['images-na.ssl-images-amazon.com', 'i.imgur.com'],
     remotePatterns: [
