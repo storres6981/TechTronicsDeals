@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "homepage": "https://storr.github.io/TechTronicsDeals/",
+  "homepage": "https://storres6981.github.io/TechTronicsDeals/",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

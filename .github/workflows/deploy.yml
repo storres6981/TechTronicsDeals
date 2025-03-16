@@ -20,8 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NODE_ENV: production
-      NEXTAUTH_URL: https://storr.github.io/TechTronicsDeals
-      NEXT_PUBLIC_BASE_URL: https://storr.github.io/TechTronicsDeals
+      NEXTAUTH_URL: https://storres6981.github.io/TechTronicsDeals
+      NEXT_PUBLIC_BASE_URL: https://storres6981.github.io/TechTronicsDeals
 
     steps:
       - uses: actions/checkout@v4
@@ -42,8 +42,8 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
-          NEXTAUTH_URL: https://storr.github.io/TechTronicsDeals
-          NEXT_PUBLIC_BASE_URL: https://storr.github.io/TechTronicsDeals
+          NEXTAUTH_URL: https://storres6981.github.io/TechTronicsDeals
+          NEXT_PUBLIC_BASE_URL: https://storres6981.github.io/TechTronicsDeals
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

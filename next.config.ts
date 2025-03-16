@@ -11,7 +11,7 @@ const config: NextConfig = {
   env: {
     NEXTAUTH_URL: process.env.NEXTAUTH_URL,
     NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
-    NEXT_PUBLIC_BASE_URL: process.env.NODE_ENV === 'production' ? 'https://storr.github.io/TechTronicsDeals' : 'http://localhost:3000',
+    NEXT_PUBLIC_BASE_URL: process.env.NODE_ENV === 'production' ? 'https://storres6981.github.io/TechTronicsDeals' : 'http://localhost:3000',
   },
   trailingSlash: true,
 };
